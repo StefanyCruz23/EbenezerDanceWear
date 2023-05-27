@@ -169,6 +169,7 @@ div.video1{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  justify-content: center; 
   margin: auto;
 }
 
@@ -188,6 +189,11 @@ div.video1{
 
       .grid3-video {
         margin-top: 400px;
+      }
+      .medida-video {
+        width: 450px;
+        height: 500px;
+        overflow: hidden;
       }
 
       .video {
