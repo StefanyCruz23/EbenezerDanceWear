@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) and(max-width: 1024px) {
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+.columnalogo{
+  border-color: #FF7043 white;
+}
+.container-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+  background-color: #FF7043;
+  border-style: solid
+}
+@media (min-width:768px) {
+  .container-header{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    background-color: black;
+    border-style: solid;
+    border-color: #FF7043;
+
+}
+} 
+
+header a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform:initial;
+  text-decoration: none;
+  
+}
+header a.active {
+  color: #FF7043;
+} 
+header a:hover {
+  color: #FF7043; 
+}
+
+.columnalogo img {
+  height: 100px;
+}
+.columnalogo{
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+div:not( columna1-header) {
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+.videohome{ 
+  background-color: black;
+  border-color: #FF7043;
+  margin: 1rem 2rem;
+  
+}
+
+div.video1{  
+  @media (min-width:768px){
+  margin-left:  10rem ;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  }
+  .video{
+    margin-left: 51rem;
+  }
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer1 {
+  color: #ffffff;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: 0 2rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.columna-f1 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.columna-f2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.columna-f3 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.columna-f4 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-f1 {
+  width: 100px;
+}
+.footer2 {
+  background-color: #FF7043;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 2rem;
+}
